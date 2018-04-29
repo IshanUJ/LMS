@@ -1,0 +1,157 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.h1{
+	background-image: url("baim-hanif-89800.jpg");
+	height: 110vh;
+	width: 100%;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+
+}
+.h{
+	color: white;
+	font-size: 30px;
+}
+#rig {
+    max-width:900px;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    border-radius: 10px;
+    
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img1 {
+    display:block;
+    width: 100%;
+    height: 55vh;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+    border-radius: 10px;
+}
+.rig-img2{
+    display:block;
+    width: 100%;
+    height: 55vh;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+     border-radius: 10px;
+}
+.rig-img3 {
+    display:block;
+    width: 100%;
+    height: 55vh;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+     border-radius: 10px;
+}
+
+#rig li:hover .rig-img1 {
+    transform:scale(1.05);
+   	margin-left: 10px;
+}
+#rig li:hover .rig-img2 {
+    transform:scale(1.05);
+    margin-left: 10px;
+}
+#rig li:hover .rig-img3 {
+    transform:scale(1.05);
+    margin-left: 10px;
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+    border-radius: 10px;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+.pic{
+	width: 100%;
+	height: 80vh;
+	margin-left: 120px;
+}

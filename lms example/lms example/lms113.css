@@ -1,0 +1,47 @@
+.social{
+	height: 50vh;
+	width: 100%;
+	background-color: black;
+	float: left;
+	
+}
+.bus{
+	height: 35vh;
+	width: 25%;
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
+.com{
+	height: 35vh;
+	width: 25%;
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
+.lib{
+	height: 35vh;
+	width: 25%;
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
+.exam{
+	height: 35vh;
+	width: 20%;
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
+.fb{
+	margin-left: 450px;
+}
+.link{
+	margin-left: 50px;
+}
+.you{
+	margin-left: 50px;
+}
+.go{
+	margin-left: 50px;
+}

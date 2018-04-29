@@ -1,0 +1,63 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.box1{
+	font-size: 30px;
+	background-image: url("garrison-stribling-81280.jpg");
+	height: 120vh;
+	width: 100%;
+	margin-top: -10px;
+}
+.box2{
+	height: 10vh;
+	width: 25%;
+	background-color: none;
+	margin-left: 475px;
+	border-radius: 30px;
+	background-color: #cccccc;
+	
+	
+}
+.box3{
+	height: 10vh;
+	width: 25%;
+	background-color: none;
+	margin-left: 475px;
+	border-radius: 30px;
+	background-color: #cccccc;
+	margin-top: 10px;
+	
+}
+.box4{
+	height: 10vh;
+	width: 25%;
+	background-color:none;
+	margin-left: 475px;
+	border-radius: 30px;
+	background-color: #cccccc;
+	
+	
+}
+.box5{
+	height: 10vh;
+	width: 25%;
+	background-color: none;
+	margin-left: 475px;
+	border-radius: 30px;
+	background-color: #cccccc;
+}
+.box6{
+	height: 10vh;
+	width: 25%;
+	background-color:none;
+	margin-left: 475px;
+	border-radius: 30px;
+	background-color: #cccccc;
+}
+h1 a:hover{
+	background-color: #99ffbb;
+}

@@ -1,0 +1,57 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.box1{
+	background-image: url("annie-spratt-147610.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+}
+.h{
+	font-size: 20px;
+}
+.h1{
+	height: 5vh;
+	width: 50%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 325px;
+	position: relative;
+}
+.h2{
+	height: 5vh;
+	width: 50%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 325px;
+}
+.h3{
+	height: 5vh;
+	width: 50%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 325px;
+}
+.h4{
+	height: 5vh;
+	width: 50%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 325px;
+}
+.h5{
+	height: 5vh;
+	width: 50%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 325px;
+}
+.h6{
+	height: 5vh;
+	width: 50%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-left: 325px;
+}

@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: #262626;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 52.5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    border-radius: 30px;
+}
+.box1{
+    background-image: url("thomas-martinsen-2443.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+.h1{
+    color:white;
+    font-size: 30px;
+    
+}
+.box2{
+     height: 22vh;
+    width:100%;
+    background-color: white;
+    font-family: Sans MS;
+}
+.logo{
+
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+
+}
+.img{
+     background-image: url("logow.PNG");
+    background-size: cover;
+    height: 18vh;
+    width: 20%;
+    float: left;
+}
+.h1{
+    font-family:Helvetica;
+}
+
+h2{
+    font-family: Trebuchet MS;
+}
+h1{
+    font-family: Sans MS;
+}
+.add{
+   font-weight: 2px;
+   font-family: Georgia;
+   float: right;
+   margin-top: -14px;
+}

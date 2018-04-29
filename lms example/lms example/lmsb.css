@@ -1,0 +1,130 @@
+body{
+	padding: 0px;
+	margin:0px;
+}
+.box1{
+	background-image: url("technology-news-4.jpg");
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+	
+}
+.nav{
+    background-color: #262626;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 52.5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    border-radius: 30px;
+}
+.h1{
+	color:white;
+	font-size: 30px;
+	
+}
+.inbox1{
+	margin-top: 30px;
+	float: left;
+}
+.inbox2{
+	width: 420px;
+	height: 225px;
+	background-color:#cccccc; 
+	margin-top: -30px;
+	
+}
+.h4{
+	font-size: 20px;
+	color: black;
+	width: 500px;
+}
+.p1{
+	color: black;
+	width: 500px;
+}
+.inbox3{
+	float: left;
+	margin-left: 460px;
+	margin-top: -450px;
+}
+.inbox4{
+	width: 420px;
+	height: 225px;
+	background-color:#cccccc; 
+	margin-top: -30px;
+	
+}
+.h5{
+	font-size: 20px;
+	color: black;
+	width: 500px;
+}
+.p2{
+	color: black;
+	width: 500px;
+}
+.inbox5{
+	float: left;
+	margin-left: 460px;
+	margin-top: -450px;
+	width: 100px;
+}
+.inbox6{
+	width: 420px;
+	height: 225px;
+	background-color:#cccccc; 
+	margin-top: -26px;
+}
+.box2{
+    height: 22vh;
+    width:100%;
+    background-color: white;
+}
+.logo{
+
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+
+}
+.img{
+     background-image: url("logow.PNG");
+    background-size: cover;
+    height: 18vh;
+    width: 20%;
+    float: left;
+}
+.add{
+   font-weight: 2px;
+   font-family: Georgia;
+   float: right;
+   margin-top: -14px;
+}

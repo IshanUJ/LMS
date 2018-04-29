@@ -1,0 +1,257 @@
+body{
+	margin:0px;
+	padding: 0px;
+
+}
+.nav{
+    background-color: #262626;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 52.5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    border-radius: 30px;
+}
+#box1{
+	height:108vh;
+	width: 100%;
+	background-image: url("15965285_10206102419637890_992733963675710573_n.jpg");
+	 min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bkwrd{
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	font-family:  "Times New Roman", Times, serif;
+	font-size: 40px;
+}
+.bkwrd1{
+	color: white;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+hr{
+	width: 500px;
+	color: black;
+
+}
+.bkwrd2{
+	color:white;
+	text-align: center;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 28px;
+    border:black;
+}
+button{
+    padding: 15px 40px;
+    margin: 8px 0;
+    display: block;
+  	margin:  2em 612px auto;
+  	border-radius: 4px;
+  	border: none;
+  	background-color: #4CAF50;
+  	color: white;
+  	cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 50px 10px;
+}
+
+span.psw {
+    margin-left: 500px;
+    padding-top: 16px;
+     display: block;
+}
+    
+}
+
+    .screen.span.psw {
+       display: block;
+       float: none;
+    }
+.cancelbtn {
+       width: 50%;
+    }
+
+.cancelbtn {
+	position: absolute;
+    width:  80px;
+    padding: 15px 20px;
+    background-color: #f44336;
+    margin-left: 550px;
+   
+}
+input[type=text], input[type=password] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.lbtn{
+	width: 85px;
+	padding: 15px 20px;
+	margin-left: 450px;
+	position: absolute;	
+}
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox]{
+    cursor: pointer;
+    padding: 0.2em;
+}
+input[type=checkbox] + label:before{
+    content: "\2714";
+    border:0.1em solid #000;
+    border-radius: 0.2em;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    color: transparent; 
+    transition: .2s;
+}
+input[type=checkbox]:checked + label:before{
+    background-color: MediumSeaGreen;
+    color: #fff;
+    border-color: MediumSeaGreen;
+}
+.chika{
+
+	width: 700px;
+	height: 100px;
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+
+.hed{
+	font-family: Georgia;
+	color:#52527a;
+	
+}
+.p1{
+	color: #52527a;
+	font-size: 20px;
+	
+}
+.p2{
+	color: #52527a;
+	font-size: 20px;
+}
+.p3{
+	color: #52527a;
+	font-size: 20px;
+}
+.hed2{
+	font-family: Georgia;
+	color:#52527a;
+}
+.hed3{
+	font-family: Georgia;
+	color:#52527a;
+}
+.l1{
+    font-size: 5px;
+}
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

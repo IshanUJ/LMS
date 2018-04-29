@@ -1,0 +1,122 @@
+body{
+    margin:0px;
+    padding: 0px;
+
+}
+.nav{
+    background-color: #262626;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 52.5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+#box1{
+    height:110vh;
+    width: 100%;
+    background-image: url("WhatsApp-Image-2017-06-19-at-23.25.gif");
+    background-size: cover;
+    
+
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-color: #d2f5f9;
+    background-size: cover;
+}body{
+    margin:0px;
+    padding: 0px;
+
+}
+.nav{
+    background-color: #262626;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0px 0px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 52.5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+#box1{
+    height:110vh;
+    width: 100%;
+    background-image: url("7-reasons-why-learnupon-lms-is-so-successful.jpg.jpg");
+    background-size: cover;
+    
+
+}
+.box1{
+    background-image: url("chris-lawton-236416.jpg");
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+}
+.h1{
+    color:white;
+    font-size: 30px;
+    
+}
+.box2{
+    height: 22vh;
+    width:100%;
+    background-color: white;
+}
+.logo{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}

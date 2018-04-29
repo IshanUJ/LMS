@@ -1,0 +1,213 @@
+body{
+	margin:0px;
+	padding: 0px;
+
+}
+.nav{
+	background-color: #262626;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+    position: fixed;
+    padding: 0px 0px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+#box1{
+	height:110vh;
+	width: 100%;
+	background-image: url("WhatsApp-Image-2017-06-19-at-23.25.gif");
+	background-size: cover;
+    
+
+}
+#box2{
+	height: 100vh;
+	width: 100%;
+	background-color: #d2f5f9;
+	background-size: cover;
+}
+.bkwrd{
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	font-family:  "Times New Roman", Times, serif;
+	font-size: 40px;
+}
+.bkwrd1{
+	color: white;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+hr{
+	width: 500px;
+	color: black;
+
+}
+.bkwrd2{
+	color:white;
+	text-align: center;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 28px;
+}
+button{
+    padding: 15px 40px;
+    margin: 8px 0;
+    display: block;
+  	margin:  2em 612px auto;
+  	border-radius: 4px;
+  	border: none;
+  	background-color: #4CAF50;
+  	color: white;
+  	cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+}
+
+.container {
+    padding: 50px 10px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+     display: block;
+       float: none;
+}
+
+    .screen.span.psw {
+       display: block;
+       float: none;
+    }
+.cancelbtn {
+       width: 50%;
+    }
+
+.cancelbtn {
+	position: absolute;
+    width:  80px;
+    padding: 15px 20px;
+    background-color: #f44336;
+    margin-left: 550px;
+   
+}
+input[type=text], input[type=password] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.lbtn{
+	width: 85px;
+	padding: 15px 20px;
+	margin-left: 450px;
+	position: absolute;
+	
+
+	
+	
+}
+.chika{
+
+	width: 700px;
+	height: 100px;
+
+	
+}
+
+.hed{
+	font-family: Georgia;
+	color:#52527a;
+	
+}
+.p1{
+	color: #52527a;
+	font-size: 20px;
+	
+}
+.p2{
+	color: #52527a;
+	font-size: 20px;
+}
+.p3{
+	color: #52527a;
+	font-size: 20px;
+}
+.hed2{
+	font-family: Georgia;
+	color:#52527a;
+}
+.hed3{
+	font-family: Georgia;
+	color:#52527a;
+}
+

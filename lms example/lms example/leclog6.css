@@ -1,0 +1,78 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.box1{
+	background-image: url("annie-spratt-147610.jpg");
+	height: 300vh;
+	width: 100%;
+	background-size: cover;
+	
+}
+.box2{
+	height: 20vh;
+	width: 70%;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.pdf{
+	vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+.h{
+	margin-left: 24px;
+	margin-top: -40px;
+}
+.box3{
+	height: 35vh;
+	width: 70%;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.inbox1{
+	height: 35vh;
+	width: 5%;
+	background-color:#5c8a8a;
+	border-radius: 5px;
+}
+.box4{
+	height: 35vh;
+	width: 70%;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.inbox2{
+	height: 35vh;
+	width: 5%;
+	background-color:#5c8a8a;
+	border-radius: 5px;
+}
+.box5{
+	height: 35vh;
+	width: 70%;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.inbox3{
+	height: 35vh;
+	width: 5%;
+	background-color:#5c8a8a;
+	border-radius: 5px;
+}
+
+.inbx{
+	height: 35vh;
+	width: 50%;
+	float: left;
+	margin-left: 50px;
+	margin-top: -35px;
+}
+.row{
+	width: 40vh;
+}
